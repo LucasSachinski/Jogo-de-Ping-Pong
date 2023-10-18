@@ -163,9 +163,9 @@ function game(){//Se o jogo estiver rolando.Ela vai receber as funções de cont
 }
 function iniciaJogo(){//Função para iniciar o jogo.
     if(!jogo){//Se o jogo estiver parado.
-        velBola=25
+        velBola=30
         velCpu=8
-        velJogador=15
+        velJogador=25
         cancelAnimationFrame(frames)//Cancela a animação, para não ter uma chamada em cima da outra.
         jogo=true
         dirJy=0
